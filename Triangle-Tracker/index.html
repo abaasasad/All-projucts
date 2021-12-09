@@ -1,33 +1,30 @@
+
 <!DOCTYPE html>
 <html>
-
 <head>
-  <title>Triangle Tracker.</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <script src="index.js">
-  </script>
+  <meta charset="utf-8">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <title>Traingle-Tracker</title>
+  <script src="js/scripts.js"></script>
 </head>
-
 <body>
-  <h1>Triangle Tracker</h1>
-  <div class="entries">
-    <form id="inputs">
-      <div class="zah">
-        <h2 class="sides">First Number:</h2>
-        <input type="number" name="FirstNumber" id="A"></input>
-      </div>
-    <div class="zah">
-      <h2 class="sides">First Number:</h2>
-      <input type="number" name="SecondNumber" id="B"></input>
-    </div>
-      <div class="zah">
-        <h2 class="sides">First Number:</h2>
-      <input type="number" name="ThirdNumber" id="C"></input>
-      </div>
-    </form>
-    <button type="submit" id="click" onclick="triangleType();">Check answer</button>
+  <h2>TRIANGLE-TRACKER-PROJECT</h2>
+  <div class="text-box">
+      <br>
+  <h2>LETS FIND OUT MORE ABOUT TRIANGLES.</h2>
+    <p> First Side  <input type="text" id="l"></p>
+    <p> Second Side <input type="text" id="w"></p>
+    <p> Third Side  <input type="text" id="h"></p>
   </div>
-  <p id="output"></p>
-</body>
+  <input type="button" value="TRACK" onclick="triangleTracker()">
+       <br>
+  <h2>Description of Triangles</h2>
+  <p>The types of triangles inlude:</p>
+  <ol>
+    <li>Equilateral triangle: a triangle that has all three sides equal</li>
+    <li>Isosceles triangle: a triangle that has two sides equal</li>
+    <li>Scalene triangle: a tringle that has all the three sides unequal</li>
+  </ol>
 
+</body>
 </html>
