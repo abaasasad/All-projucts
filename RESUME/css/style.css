@@ -1,0 +1,49 @@
+
+.container{
+    box-shadow: 1px 1px 3px #000;
+}
+.my-picture{
+    width: 280px;
+    height: 280px;
+}
+.my-name{
+    color: #0092ff;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.career{
+    color: #0092ff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.social-links{
+    font-size: 40px;
+}
+.my-info ul li{
+    list-style: none;
+}
+.titles{
+    font-size: 30px;
+    color: #0092ff;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.objective-pra{
+    font-size: 20px;
+    font-weight: 500;
+}
+.time-line{
+    color: gray;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.sub-title{
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.sub-pra{
+    font-size: 20px;
+    font-weight: 500;
+    color: gray;
+}

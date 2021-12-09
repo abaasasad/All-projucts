@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Tic-Tac-Toe</title>
+      <!-- bootstrap links -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+        <link rel="stylesheet" href="../furniture-pages/css/style.css">
+        <!-- Google fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+
+        <!-- font awesome icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+        <link rel="shortcut icon" type="image/jpg" href="Images/fevicon.PNG"/>
+        <!-- game style css -->
+        <link rel="stylesheet" href="box-match.css">
+
+        <!-- game script  -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"> </script>
+        <script src="box-match.js"> </script>
+</head>
+<body>
+  <nav class="navbar navbar-light p-3" >
+    <div class="d-flex col-12 col-md-3 col-lg-2 mb-2 mb-lg-0 flex-wrap flex-md-nowrap justify-content-between ">
+        <h5 class="text-white">Dashboard Admin</h5>
+        <button class="navbar-toggler d-md-none collapsed mb-3" type="button" data-toggle="collapse" data-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="col-12 col-md-4 col-lg-2">
+        <input class="form-control form-control-dark" type="text" placeholder="Search" aria-label="Search">
+    </div>
+    <div class="col-12 col-md-5 col-lg-8 d-flex align-items-center justify-content-md-end mt-3 mt-md-0">
+
+        <div class="dropdown">
+            <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+              Profile
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item" href="../furniture-pages/loging.html">Login</a></li>
+              <li><a class="dropdown-item" href="../furniture-pages/signup.html">SignUp</a></li>
+            </ul>
+          </div>
+    </div>
+</nav>
+<!-- end nav bar here -->
+
+<!-- container fluid -->
+  <div class="container-fluid">
+      <!-- sidebar here -->
+          <nav id="sidebar" class="col-md-3 col-lg-2 d-md-block  sidebar collapse">
+              <div class="position-sticky">
+                  <ul class="nav flex-column">
+                      <li class="nav-item">
+                        <a class="nav-link active " aria-current="page" href="../dashboard.html">
+                          <i class="fas fa-home"></i>
+                          <span class="ml-2">Dashboard</span>
+                        </a>
+                      </li>
+                      <li class="nav-item text-white">
+                        <a class="nav-link" href="../index.html">
+                          <i class="fas fa-couch"></i>
+                          <span class="ml-2 ">Furniture</span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../Tic-Tac/tictac.html">
+                          <i class="fas fa-gamepad"></i>
+                          <span class="ml-2">Tic Tac Toe</span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">
+                          <i class="fas fa-gamepad"></i>
+                          <span class="ml-2">Memory Matching</span>
+                        </a>
+                      </li>
+                     
+
+                    </ul>
+              </div>
+          </nav>
+          <!-- end sidebar here -->
+        <main class="background ">
+            <div id="ol"> </div>
+            <div style="height: 8px;"></div>
+            <div id="title">
+            <span id="logo">MEMORY MATCHING GAME</span>
+            </div>
+            
+            <div id="title" style="height: 40px;">
+            <span id="moves"></span>
+            <span id="time"></span>
+            </div>
+            
+            <center>
+            <table cellspacing="0"></table>
+            </center>
+            
+        </main>
+
+      </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+</body>
+</html>
+

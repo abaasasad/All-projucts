@@ -1,0 +1,36 @@
+
+.container-fluid{
+  background-color: #83b735;;
+}
+.panel-heading {
+  padding: 30px;
+ 
+}
+.panel-heading h2{
+  font-size: 40px;
+  color: #fff; 
+  font-family: 'Coda Caption', sans-serif;  
+  font-weight: 600; 
+}
+.panel-body{
+  font-size: 20px;
+  border: 1px solid #fff;
+  padding: 10px;
+  font-family: 'Suez One', serif;}
+.quation{
+  font-family: 'Rozha One', serif;
+  font-weight: 600;
+}
+.well{
+  background-color: #fff;
+  border-radius: 10px;
+}
+#message{
+  padding: 30px;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 10px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+}

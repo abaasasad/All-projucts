@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="furniture-pages/css/style.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-light p-3" >
+      <div class="d-flex col-12 col-md-3 col-lg-2 mb-2 mb-lg-0 flex-wrap flex-md-nowrap justify-content-between ">
+          <h5 class="text-white">Dashboard Admin</h5>
+          <button class="navbar-toggler d-md-none collapsed mb-3" type="button" data-toggle="collapse" data-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+      </div>
+      <div class="col-12 col-md-4 col-lg-2">
+          <input class="form-control form-control-dark" type="text" placeholder="Search" aria-label="Search">
+      </div>
+      <div class="col-12 col-md-5 col-lg-8 d-flex align-items-center justify-content-md-end mt-3 mt-md-0">
+
+          <div class="dropdown">
+              <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+                Profile
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="furniture-pages/loging.html">Login</a></li>
+                <li><a class="dropdown-item" href="furniture-pages/signup.html">SignUp</a></li>
+              </ul>
+            </div>
+      </div>
+  </nav>
+  <!-- end nav bar here -->
+
+  <!-- container fluid -->
+    <div class="container-fluid">
+
+      <div class="row">
+        <!-- sidebar here -->
+            <nav id="sidebar" class="col-md-3 col-lg-2 d-md-block  sidebar collapse">
+                <div class="position-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                          <a class="nav-link active " aria-current="page" href="dashboard.html">
+                            <i class="fas fa-home"></i>
+                            <span class="ml-2">Dashboard</span>
+                          </a>
+                        </li>
+                        <li class="nav-item text-white">
+                          <a class="nav-link" href="index.html">
+                            <i class="fas fa-couch"></i>
+                            <span class="ml-2 ">Furniture</span>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="Tic-Tac/tictac.html">
+                            <i class="fas fa-gamepad"></i>
+                            <span class="ml-2">Tic Tac Toe</span>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="Memory-Matching-Game/box-match.html">
+                            <i class="fas fa-gamepad"></i>
+                            <span class="ml-2">Box-Matching</span>
+                          </a>
+                        </li>
+                      </ul>
+                </div>
+            </nav>
+            <!-- end sidebar here -->
+
+            <main class="col-md-9 ml-sm-auto col-lg-10 px-md-4 py-4">
+                <div class="row my-4">
+                    <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                        <div class="card">
+                            <h5 class="card-header">Total products</h5>
+                            <div class="card-body">
+                              <h5 class="card-title">3000k</h5>
+                              <p class="card-text">Oct 1 - Dec 1, Somalia</p>
+                              <p class="card-text text-success">18.2% increase since last month</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-12 col-md-6 mb-4 mb-lg-0 col-lg-3">
+                        <div class="card">
+                            <h5 class="card-header">Total sold</h5>
+                            <div class="card-body">
+                              <h5 class="card-title">$2.4k</h5>
+                              <p class="card-text">Oct 1 - Nov 25, Somalia</p>
+                              <p class="card-text text-success">4.6% Decrease since last month</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-12 col-md-6 mb-4 mb-lg-0 col-lg-3">
+                        <div class="card">
+                            <h5 class="card-header">Purchases</h5>
+                            <div class="card-body">
+                              <h5 class="card-title">43.9k</h5>
+                              <p class="card-text">sep 1 - sep 30, Somalia</p>
+                              <p class="card-text text-danger">2.6% increase since last month</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-12 col-md-6 mb-4 mb-lg-0 col-lg-3">
+                        <div class="card">
+                            <h5 class="card-header">Revenue</h5>
+                            <div class="card-body">
+                              <h5 class="card-title">64k</h5>
+                              <p class="card-text">August 1 , Somalia</p>
+                              <p class="card-text text-success">2.5% increase since last month</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Performance business -->
+                    <h3 class="text-center">Performance Report</h3>
+                <div class="row">
+                  <div class="col-12 mb-4">
+                    <h4>Living-Room </h4>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 98%;" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100">88%</div>
+                    </div>
+                    <h4>Bed-Room</h4>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                    </div>
+                    <h4>Modern-Chairs</h4>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 66%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                    </div>
+                    </div>
+                  </div>
+                  <!-- end Performance business here -->
+
+                  <!-- products of Furniture -->
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card">
+                      <div class="card-header">Living Room</div>
+                        <img src="furniture-pages/l-room/l-7.jpg" class="img-fluid" alt="">
+                      <div class="card-footer text-center"> <a href="furniture-pages/living-room.html">See More</a></div>
+                  </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card">
+                      <div class="card-header">Bed Room</div>
+                        <img src="furniture-pages/B-room/bed-room-16.jpg" class="img-fluid" alt="">
+                      <div class="card-footer text-center"> <a href="furniture-pages/bed-room.html">See More</a></div>
+                  </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card">
+                      <div class="card-header">Sofa Chairs</div>
+                        <img src="furniture-pages/l-room/l-3.jpg" class="img-fluid" alt="">
+                      <div class="card-footer text-center"> <a href="furniture-pages/chairs.html">See More</a></div>
+                  </div>
+                  </div>
+                </div>
+                <!-- end products of Furniture here -->
+
+                <!-- scrores of team -->
+                <div class="card p-3 mt-3">
+                  <h5 class="mt-3 mb-3">Member Scores</h5>
+                  <div class="border p-2 rounded d-flex flex-row align-items-center">
+                      <div class="p-1 px-4 d-flex flex-column align-items-center speed rounded"> <span class="d-block char text-success">A</span> <span class="text-success">85%</span> </div>
+                      <div class="ml-2 p-3">
+                          <h6 class="heading1">Ahmed Mohamed Ibrahim</h6> <span>The average score is 75%</span>
+                      </div>
+                  </div>
+                  <div class="border p-2 rounded d-flex flex-row align-items-center mt-2">
+                      <div class="p-1 px-4 d-flex flex-column align-items-center speed rounded"> <span class="d-block char text-success">A</span> <span class="text-success">85%</span> </div>
+                      <div class="ml-2 p-4">
+                          <h6 class="text">Fowzia Jimaale Ahmed</h6> <span>The average  score is 76%</span>
+                      </div>
+                  </div>
+                  <div class="border p-2 rounded d-flex flex-row align-items-center">
+                    <div class="p-1 px-4 d-flex flex-column align-items-center score rounded"> <span class="d-block char text-success">A+</span> <span class="text-success">99%</span> </div>
+                    <div class="ml-2 p-3">
+                        <h6 class="heading1">Ahmed Mohamed Hassan</h6> <span>The average score is 75%</span>
+                    </div>
+                </div>
+                <div class="border p-2 rounded d-flex flex-row align-items-center mt-2">
+                    <div class="p-1 px-4 d-flex flex-column align-items-center score rounded"> <span class="d-block char text-success">A+</span> <span class="text-success">99%</span> </div>
+                    <div class="ml-2 p-4">
+                        <h6 class="text">Abaas Asad Ali</h6> <span>The average  score is 76%</span>
+                    </div>
+                </div>
+              </div>
+            </main>
+    </div>
+  </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  </body>
+</html>
